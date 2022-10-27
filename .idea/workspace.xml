@@ -9,20 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0987b27f-35b6-4d1f-bfcb-664f91d27d23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tomkoJAVA_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tomko/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Vyacheslav.java" afterDir="false" />
+    <list default="true" id="0987b27f-35b6-4d1f-bfcb-664f91d27d23" name="Changes" comment="Added Application.java, Array.java, Number.java, ReadFile.java, Vacheslav.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Vyacheslav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Vyacheslav.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Java/Projects/tomkoJAVA/src/main/java/com/tomko/Vyacheslav.java",
+    "last_opened_file_path": "C:/Java/Projects/seaBattle",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -89,6 +81,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666878669660</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Application.java, Array.java, Number.java, ReadFile.java, Vacheslav.java">
+      <created>1666894590959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666894590959</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +101,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Application.java, Array.java, Number.java, ReadFile.java, Vacheslav.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Application.java, Array.java, Number.java, ReadFile.java, Vacheslav.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

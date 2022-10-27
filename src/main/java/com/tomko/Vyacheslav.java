@@ -1,5 +1,8 @@
 package com.tomko;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Vyacheslav {
@@ -17,9 +20,18 @@ public class Vyacheslav {
         } else {
             enteredName = transmittedName;
         }
-        if (enteredName.equals(name))
-            System.out.println("Привет, " + enteredName + "\n");
-        else {
+        if (enteredName.equals(name)) {
+            System.out.println("Для вывода результата в файл нажмите клавишу -f-");
+            if (scanner.nextLine().equals("f")) {
+                try {
+                    Files.writeString(Paths.get("helloVyacheslav.txt"), "Привет" + enteredName);
+                    System.out.println("Результат смотри в файле \"helloVyacheslav.txt\"");
+                } catch (IOException e) {
+                    System.out.println("Не удалось создать файл!");
+                }
+            } else
+                System.out.println("Привет, " + enteredName + "\n");
+        } else {
             System.out.println("Нет такого имени.\n");
         }
     }

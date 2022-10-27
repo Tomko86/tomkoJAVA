@@ -1,21 +1,25 @@
 package com.tomko;
 
-import java.awt.*;
-import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class ReadFile {
-    private static final File file = new File("src/main/resources/text.txt");
+
+    private static final String taskFour = "Дана скобочная последовательность: [((())()(())]]\n" +
+            "- Можно ли считать эту последовательность правильной?\n" +
+            "- Если ответ на предыдущий вопрос “нет” - то что необходимо в ней изменить, чтоб она стала правильной?\n\n" +
+            "Ответ\n" +
+            "- Нет.\n" +
+            "- Нужно заменить вторую скобку на квадратную - [[(())()(())]]\n" +
+            "- Или заменить предпоследнюю скобку на круглую - [((())()(()))]\n";
 
     public static void bracketSequence() {
-        if(!Desktop.isDesktopSupported()){
-            System.out.println("Desktop не поддерживается!(");
-            return;
-        }
-        Desktop desktop = Desktop.getDesktop();
         try {
-            desktop.open(file);
-        } catch (Exception e) {
-            System.out.println("Проблема с открытием файла! Обратитесь к разработчику!\n" + e);
+            Files.writeString(Paths.get("bracketSequence.txt"), taskFour);
+            System.out.println("Результат смотри в файле \"bracketSequence.txt\"");
+        } catch (IOException e) {
+            System.out.println("Не удалось создать файл!");
         }
     }
 }

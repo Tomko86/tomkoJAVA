@@ -1,5 +1,8 @@
 package com.tomko;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Array {
@@ -35,11 +38,23 @@ public class Array {
             }
         }
 
-        System.out.print("Элементы массива кратные трем: ");
+        StringBuilder sb = new StringBuilder("[ ");
         for (int number : array) {
             if (number % 3 == 0)
-                System.out.printf(number + " ");
+                sb.append(number).append(" ");
         }
+        String result = sb.append("]").toString();
+
+        System.out.println("Для вывода результата в файл нажмите клавишу -f-");
+        if (scanner.nextLine().equals("f")) {
+            try {
+                Files.writeString(Paths.get("array.txt"), result);
+                System.out.println("Результат смотри в файле \"array.txt\"");
+            } catch (IOException e) {
+                System.out.println("Не удалось создать файл!");
+            }
+        } else
+            System.out.print("Элементы массива кратные трем: " + result);
         System.out.println("\n");
     }
 }
