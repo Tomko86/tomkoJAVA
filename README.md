@@ -1,4 +1,4 @@
-# tomkoJAVA
+# tomkoJava
 Aston QA-automation
 
 **ВАЖНО!!!**
