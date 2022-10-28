@@ -24,7 +24,8 @@ public class Number {
                 input = Integer.parseInt(transmittedValue);
             }
             if (input > 7) {
-                System.out.println("Для вывода результата в файл нажмите клавишу -f-");
+                System.out.println("Для вывода результата в файл нажмите клавишу -f-\n" +
+                        "или любую другую, для вывода в консоль");
                 if (scanner.nextLine().equals("f")) {
                     try {
                         Files.writeString(Paths.get("hello.txt"), "Привет");

@@ -9,7 +9,7 @@ public class Vyacheslav {
 
     private static final Scanner scanner = new Scanner(System.in);
     private static final String name = "Вячеслав";
-    private static final String condition = "Задача №2\n" +"Если введенное имя совпадает с Вячеслав, " +
+    private static final String condition = "Задача №2\n" +"Если введенное имя совпадает с \"Вячеслав\", " +
             "то вывести \"Привет, Вячеслав\", если нет, то вывести \"Нет такого имени\"";
     public static void checkName(String transmittedName) {
         System.out.println(condition);
@@ -21,7 +21,8 @@ public class Vyacheslav {
             enteredName = transmittedName;
         }
         if (enteredName.equals(name)) {
-            System.out.println("Для вывода результата в файл нажмите клавишу -f-");
+            System.out.println("Для вывода результата в файл нажмите клавишу -f-\n" +
+                    "или любую другую, для вывода в консоль");
             if (scanner.nextLine().equals("f")) {
                 try {
                     Files.writeString(Paths.get("helloVyacheslav.txt"), "Привет" + enteredName);

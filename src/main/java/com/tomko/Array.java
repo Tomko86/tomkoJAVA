@@ -15,13 +15,13 @@ public class Array {
         System.out.println(condition);
         int[] array;
         if (transmittedValue.equals("")) {
-            System.out.println("Введите пять элементов числового массива: ");
             array = new int[5];
             for (int i = 0; i < array.length; i++) {
+                System.out.println("Введите число и нажмите Enter: ");
                 try {
                     array[i] = Integer.parseInt(scanner.nextLine());
                 } catch (NumberFormatException e) {
-                    System.out.println("Вы ввели не число! Попробуйте еще раз: ");
+                    System.out.println("Вы ввели не число!");
                     i--;
                 }
             }
@@ -45,7 +45,8 @@ public class Array {
         }
         String result = sb.append("]").toString();
 
-        System.out.println("Для вывода результата в файл нажмите клавишу -f-");
+        System.out.println("Для вывода результата в файл нажмите клавишу -f-\n" +
+                "или любую другую, для вывода в консоль");
         if (scanner.nextLine().equals("f")) {
             try {
                 Files.writeString(Paths.get("array.txt"), result);

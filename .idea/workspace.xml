@@ -9,11 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0987b27f-35b6-4d1f-bfcb-664f91d27d23" name="Changes" comment="Added Application.java, Array.java, Number.java, ReadFile.java, Vacheslav.java">
+    <list default="true" id="0987b27f-35b6-4d1f-bfcb-664f91d27d23" name="Changes" comment="Added the ability to write results to a file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/ReadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Vyacheslav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Vyacheslav.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,18 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Java/Projects/seaBattle",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/Projects/seaBattle&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="com.tomko.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tomko.Application" />
@@ -88,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666894590959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added the ability to write results to a file.">
+      <created>1666904340367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666904340367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,7 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Application.java, Array.java, Number.java, ReadFile.java, Vacheslav.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Application.java, Array.java, Number.java, ReadFile.java, Vacheslav.java" />
+    <MESSAGE value="Added the ability to write results to a file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the ability to write results to a file." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -49,7 +49,7 @@ public class Application {
                         System.exit(0);
                     }
                     default:
-                        System.out.println("You entered wrong value! Try again, please...\n");
+                        System.out.println("Вы ввели не число! Попробуйте еще раз...\n");
                 }
             }
         }
