@@ -9,15 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0987b27f-35b6-4d1f-bfcb-664f91d27d23" name="Changes" comment="Added the ability to write results to a file.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tomko/Vyacheslav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tomko/Vyacheslav.java" afterDir="false" />
-    </list>
+    <list default="true" id="0987b27f-35b6-4d1f-bfcb-664f91d27d23" name="Changes" comment="Fixed bags." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666904340367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed bags.">
+      <created>1666948302387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666948302387</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,7 +113,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Application.java, Array.java, Number.java, ReadFile.java, Vacheslav.java" />
     <MESSAGE value="Added the ability to write results to a file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the ability to write results to a file." />
+    <MESSAGE value="Fixed bags." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bags." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
